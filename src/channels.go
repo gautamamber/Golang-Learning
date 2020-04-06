@@ -17,4 +17,5 @@ func main()  {
 
 	msg := <- message
 	fmt.Println(msg)
+	close(message)
 }
