@@ -41,4 +41,7 @@ func main()  {
 	fmt.Println(sum, difference)
 	mul := multi(2,3,4,5)
 	fmt.Println(mul)
+	func() {
+		fmt.Println("Anonymous function")
+	}()
 }
