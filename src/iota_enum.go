@@ -16,3 +16,7 @@ func main()  {
 	fmt.Println("green light", gree_light)
 	fmt.Println("yellow light", yello_light)
 }
+
+func init()  {
+	fmt.Println("Hello init")
+}
