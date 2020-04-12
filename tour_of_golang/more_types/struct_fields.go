@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type vertex struct {
 	x int
@@ -8,5 +10,7 @@ type vertex struct {
 }
 
 func main()  {
-	fmt.Println(vertex{1,2})
+	v := vertex{1,2}
+	v.x = 4
+	fmt.Println(v.x)
 }
