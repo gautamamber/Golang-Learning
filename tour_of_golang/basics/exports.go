@@ -9,7 +9,7 @@ import (
 // It will give errror
 
 func main()  {
-	fmt.Println(math.pi)
+	fmt.Println(math.Pi)
 }
 
 // correct  is math.Pi
